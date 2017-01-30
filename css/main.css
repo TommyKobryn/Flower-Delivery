@@ -1,0 +1,214 @@
+#headerwrap {
+    position: relative;
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+    height: 350px;
+    background-image: url(../images/back.png);
+    background-repeat: no-repeat;
+    background-size: 100% 350px;
+    background-position: top center;
+    background-attachment: fixed;
+}
+
+.container-fluid {
+    padding-right: 0px;
+    padding-left: 0px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+#welcome {
+    font-style: italic;
+    font-weight: bold;
+    color: black;
+    position: relative;
+    text-align: center;
+    padding: 15px;
+    margin-top: 0px;
+    width: auto;
+    margin-bottom: 0px;
+}
+
+.navbar {
+    margin-bottom: 0px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+blockquote {
+    border-left: none;
+}
+
+.delivery-content {
+    min-height: 70px;
+}
+
+.delivery-content i {
+    color: green;
+}
+
+.delivery-content {
+    border-bottom-color: black;
+    border-bottom-style: solid;
+    border-width: 2px;
+    border-TOP-color: black;
+    border-top-style: solid;
+    padding: 15px;
+}
+
+.flowers-list {
+    margin-top: 30px;
+}
+
+.thumbnail img {
+    height: 160px;
+    width: 160px;
+    image-resolution: 100%;
+}
+
+.caption s {
+    margin-right: 10px;
+    color: red;
+}
+
+.caption b {
+    color: green;
+}
+
+.modal-body img {
+    height: 160px;
+    width: 160px;
+}
+
+.row-footer {
+    background-color: #333131;
+    padding: 15px;
+}
+
+.row-footer p {
+    margin-bottom: 0px;
+}
+
+.thumbnail p {
+    max-height: 57px;
+}
+
+
+/* CSS for admin panel */
+
+.addproduct {
+    max-width: 400px;
+    margin: auto;
+}
+
+.description2 {
+    max-width: 400px;
+    overflow: auto;
+}
+
+.change-entry {
+    min-height: 500px;
+    margin-left: 15px;
+}
+
+
+/* login form custom design */
+
+.loginform {
+    padding: 30px;
+    max-width: 350px;
+    width: 100% !important;
+    background-color: #feeee1;
+    margin: 120px auto;
+    border-radius: 30px;
+    box-shadow: 4px 2px 2px rgba(0, 0, 0, 0.3);
+    overflow: hidden;
+    font-family: roboto;
+}
+
+.loginform h2 {
+    text-align: center;
+    font-size: 2em;
+    font-family: roboto;
+}
+
+.loginform input[type=submit] {
+    width: 100%;
+    display: block;
+    margin-bottom: 10px;
+    position: relative;
+}
+
+.loginform input[type=text], input[type=password] {
+    height: 44px;
+    font-size: 16px;
+    width: 100%;
+    margin-bottom: 10px;
+    -webkit-appearance: none;
+    background: #fff;
+    border: 1px solid #d9d9d9;
+    border-top: 1px solid #c0c0c0;
+    /* border-radius: 2px; */
+    padding: 0 8px;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+}
+
+.loginform input[type=text]:hover, input[type=password]:hover {
+    border: 1px solid #b9b9b9;
+    border-top: 1px solid #a0a0a0;
+    -moz-box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.1);
+    -webkit-box-shadow: inset 8px 4px 2px rgba(0, 0, 0, 0.1);
+    box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.1);
+}
+
+
+/* Angular JS form validation classes */
+
+.registrationform .form-group .ng-invalid {
+    border: 1px solid red;
+}
+
+.registrationform .form-group .ng-valid {
+    border: 1px solid green;
+}
+
+.registrationform {
+    max-width: 40%;
+    margin: auto;
+}
+
+.aboutus {
+    min-height: 500px;
+}
+
+.contact {
+    min-height: 500px;
+    margin-bottom: 30px;
+    max-width: 70%;
+}
+
+.backgroud-login {
+    position: relative;
+    background-image: url(../images/back.png);
+    max-height: 80%;
+}
+
+#username-session {
+    color: green;
+}
+
+.user-info {
+    min-height: 300px;
+}
+
+#usernamesession1 {
+    color: #004398;
+    font-size: 130%;
+    font-weight: 300;
+}
+
+.content-admin-index {
+    min-height: 300px;
+}
